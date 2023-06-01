@@ -1,0 +1,274 @@
+@media (min-width:1440px) {
+    .hero-banner-slider{max-width: 1200px;margin: 0 auto;}
+    .owl-dots{text-align: center;margin-top: 0;}
+}
+@media (min-width:1441px) and (max-width:1680px){
+    .container{width: 95%;}
+}
+@media (min-width:1200px) and (max-width:1440px) {
+    .hero-section{height: 720px;}
+    .container{width: 95%;}
+    .common-heading{font-size: 35px;line-height: 62px;}
+    .item .count-number{font-size: 28px;line-height: 30px;}
+    .count-name{font-weight: 300;font-size: 17px;}
+    .partner-content{font-size: 18px;line-height: 27px;}
+    .partner-subtitle{font-size: 18px;line-height: 28px;}
+    .partner-heading{font-size: 35px;line-height: 0px;}
+    .provide-heading{font-size: 26px;line-height: 30px;}
+    .banner-title-section h1{font-size: 40px;line-height: 50px;    max-width: 740px;}
+    .banner-title-section .dial-service{margin-bottom: 30px;}
+    .banner-title-section .dial-service p{font-size: 25px;line-height: 30px;}
+    .banner-title-section .dial-service a{font-size: 16px;}
+    .border-btn, .bg-black-btn{padding: 12px 15px;font-size: 16px;}
+    .about-bronco-desc{font-size: 18px;line-height: 30px;}
+    .solution-description{font-size: 18px;line-height: 30px;}
+    .address{font-size: 14px;line-height: 21px;}
+    .footer-list,
+    .time{font-size: 16px;line-height: 25px;}
+    .footer-heading{font-size: 22px;line-height: 34px;}
+    .footer-description{font-size: 17px;line-height: 25px;}
+    .copyright-text, .copyright-text a{font-size: 16px;margin-top: 20px;}
+    .socical-media-icon{margin-top: 20px;}
+    .solution-title{font-size: 35px;line-height: 47px;}
+    .testimonial-heading{font-size: 35px;line-height: 37px;}
+    .item .clint-pic{max-width: 150px;}
+    .testimonial-description{font-size: 18px;line-height: 28px;}
+    footer{padding: 50px 0 20px 0;}
+    .link-heading {margin-bottom: 35px;font-size: 22px;}
+    .contact-heading{font-size: 35px;line-height: 37px;}
+    .common-heading::before{height: 45px;top: 10px;}
+    .about-video{height: 328px;}
+    .slider-content{font-size: 17px;line-height: 24px;}
+    .mini-footer{border-top: 2px solid #A9CF46;}
+    .contact-img {width: 98%;}
+    .terms{margin-top: 20px;}
+    .terms a{font-size: 16px;}
+    .blog-section .blog-slider .blog-description,
+    .about-description,
+    .bronco-diffirence-description,
+    .vision-text,
+    .product-description,
+    .detail-product, .product-text{font-size: 18px;line-height: 25px;}
+    .why-choose-text{font-size: 18px;}
+    
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    .container {max-width: 90% !important;}
+    .border-btn,
+    .bg-black-btn {padding: 10px 15px;font-size: 16px;}
+    /* hero section */
+    .hero-section {height: 720px;margin-bottom: 30px;}
+    .select-option {margin-bottom: 15px;}
+    .hero-section header .nav-bar .header-link li a,
+    .opetion-contact {font-size: 20px;}
+    .select-option .language-select,
+    .select-option .wild-select {margin: 0 20px 0 0;font-size: 16px;}
+    .opetion-contact {font-size: 16px;}
+    /*  */
+    .about-bronco-section {margin-bottom: 30px;}
+    .about-subtitle {font-size: 22px;line-height: 35px;margin-bottom: 10px;}
+    .about-bronco-desc {font-size: 16px;line-height: 24px;margin-bottom: 20px;}
+    .about-video {height: 240px;border-radius: 10px;margin-top: 30px;}
+    /*  */
+    .banner-title-section {margin-top: 20px;margin-bottom: 50px;}
+    .banner-title-section h1 {font-size: 34px;line-height: 44px;    max-width: 660px;}
+    .banner-title-section .dial-service {margin-bottom: 30px;}
+    .banner-title-section .dial-service p {font-size: 22px;}
+    .banner-title-section .dial-service a {font-size: 18px;}
+    .slider-title {font-size: 22px;line-height: 30px;}
+    .slider-content {font-size: 14px;margin-bottom: 10px;}
+    .owl-dots {margin-top: 0;}
+    .hero-banner-slider .owl-nav{display: none;}
+    /*  */
+    .common-heading {font-size: 22px;margin-bottom: 20px;line-height: 34px;margin-left: 0;}
+    .common-heading::before {display: none;}
+    /*  */
+    .block-latest-solutions{margin-bottom: 50px;}
+    .block-latest-solutions .solutions .row{gap: 30px;justify-content: center;}
+    .block-latest-solutions .solutions .col{margin-bottom: 30px;}
+    .block-latest-solutions .solutions .col:last-child{margin: 0;}
+    .block-latest-solutions .solutions .col .item{padding: 30px 0;}
+    .block-latest-solutions .solutions .col .item{height: 300px;}
+    /*  */
+    .tabs-section {margin-bottom: 50px;}
+    ul.nav.nav-pills {margin-bottom: 0px;column-gap: 4%;row-gap: 20px;}
+    .nav-pills .nav-link.active {font-size: 14px;padding: 11px 14px;}
+    .nav-item{width: 48%;text-align: center;}
+    .nav-link {font-size: 14px;padding: 11px 14px;font-weight: 400;}
+    .solution-title {font-size: 22px;line-height: 37px;margin-bottom: 0;}
+    .solution-description {font-size: 16px;line-height: 30px;margin-bottom: 20px;}
+    .solution-img{margin-bottom: 10px;}
+    /*  */
+    .global-partner-section {padding: 30px 0 140px;}
+    .partner-subtitle {font-size: 16px;line-height: 30px;margin-bottom: 15px;}
+    .partner-heading {font-size: 22px;line-height: 30px;margin-bottom: 30px;}
+    .partner-heading::before {bottom: -50px;height: 70px;}
+    .partner-content {font-size: 14px;line-height: 25px;margin-bottom: 30px;}
+    /*  */
+    .testimonial-section {padding: 50px 0;margin-bottom: 80px;}
+    .testimonial-subtitle {font-size: 14px;}
+    .testimonial-heading {font-size: 22px;line-height: 30px;margin-bottom: 50px;}
+    .item .clint-pic {max-width: 80px;}
+    .star {display: flex;justify-content: center;column-gap: 1%;margin-top: 20px;margin-bottom: 20px;}
+    .star .star-icon {max-width: 10px;}
+    .testimonial-description {font-size: 14px;line-height: 30px;margin: 0 auto 15px;}
+    .clint-name {font-size: 14px;}
+    .clint-city {font-size: 14px;}
+    /*  */
+    .contact-section {margin-bottom: 50px;}
+    .contact-img{width: 100%;}
+    .contact-form {padding: 20px;margin-bottom: 30px;}
+    .contact-subtitle {font-size: 14px;}
+    .contact-heading {font-size: 22px;line-height: 30px;margin-bottom: 30px;}
+    .custom-form-label {font-size: 14px;}
+    .form-group {margin-bottom: 20px;}
+    /*  */
+    .provide-heading {font-size: 23px;line-height: 30px;}
+    .provide{row-gap: 20px;}
+    /*  */
+    footer {background: #000000;padding: 50px 0;}
+    .footer-logo {margin: -50px 0 30px 0;width: 30%;}
+    .footer-heading {font-size: 22px;line-height: 35px;margin-bottom: 20px;}
+    .footer-description {font-size: 16px;line-height: 30px;margin-bottom: 30px;}
+    .link-heading {margin-bottom: 10px;font-size: 22px;}
+    .footer-list {font-size: 16px;line-height: 30px;}
+    .footer-link li {margin-bottom: 10px;}
+    .footer-link{margin-bottom: 30px;}
+    .time{margin-bottom: 30px;}
+    .address {font-size: 16px;line-height: 30px;}
+    .time {font-size: 16px;}
+    .mini-footer {margin-top: 30px;flex-direction: column;}
+    .copyright-text,
+    .copyright-text a {font-size: 16px;margin-top: 30px;}
+    .socical-media-icon {margin-top: 30px;}
+    .map-div {height: 300px;border-radius: 10px;overflow: hidden;}
+    /*  */
+    .counter-section {padding: 30px 0;margin-bottom: 50px;}
+    .counter-section .common-heading {color: #FFFFFF;}
+    .projectFactsWrap {flex-direction: column;justify-content: center;align-items: center;row-gap: 20px;}
+    .item .count-number {font-size: 22px;line-height: 30px;}
+    .count-name {font-size: 16px;line-height: 30px;}
+    .blog-section .blog-slider .item{margin-bottom: 30px;}
+    .gallery-section{margin-bottom: 30px;}
+    .services-provide-section{margin-bottom: 0;}
+    .service-provide-boxes{flex-wrap: wrap;justify-content: center;row-gap: 50px;}
+    .service-provide-box {max-width: 40%;}
+    .service-provide-heading p{font-size: 20px;}
+    .service-provide-img img{max-width: 100px;}
+}
+@media (max-width:1024px) {
+    .owl-dots {margin-top: -100px;}
+}
+@media (min-width:320px) and (max-width:767px) {
+    .container {max-width: 90% !important;}
+    .border-btn,
+    .bg-black-btn {padding: 10px 15px;font-size: 16px;}
+    /* hero section */
+    .hero-section {height: 900px;margin-bottom: 30px;}
+    .select-option {margin-bottom: 15px;}
+    .hero-section header .nav-bar .header-link li a,
+    .opetion-contact {font-size: 20px;}
+    .select-option .language-select,
+    .select-option .wild-select {margin: 0 20px 0 0;font-size: 16px;}
+    .opetion-contact {font-size: 16px;}
+    /*  */
+    .about-bronco-section {margin-bottom: 30px;}
+    .about-subtitle {font-size: 22px;line-height: 35px;margin-bottom: 10px;}
+    .about-bronco-desc {font-size: 14px;line-height: 24px;margin-bottom: 20px;}
+    .about-video {height: 200px;border-radius: 10px;margin-top: 30px;}
+    /*  */
+    .banner-title-section {margin-top: 20px;margin-bottom: 50px;}
+    .banner-title-section h1 {font-size: 25px;line-height: 32px;}
+    .banner-title-section .dial-service {margin-bottom: 30px;}
+    .banner-title-section .dial-service p {font-size: 22px;}
+    .banner-title-section .dial-service a {font-size: 18px;}
+    .slider-title {font-size: 22px;line-height: 30px;}
+    .slider-content {font-size: 14px;margin-bottom: 10px;}
+    .owl-dots {margin-top: 0px;}
+    /*  */
+    .common-heading {font-size: 22px;margin-bottom: 20px;line-height: 34px;margin-left: 0;}
+    .common-heading::before {display: none;}
+    .block-latest-solutions{margin-bottom: 50px;}
+    .block-latest-solutions .solutions .row{display: block;}
+    .block-latest-solutions .solutions .col{margin-bottom: 30px;}
+    .block-latest-solutions .solutions .col:last-child{margin: 0;}
+    .block-latest-solutions .solutions .col .item{padding: 30px 0;}
+    .block-latest-solutions .solutions .col .item{height: 300px;}
+    .block-latest-solutions .solutions .col .item .item-description{font-size: 16px;}
+    /*  */
+    .tabs-section {margin-bottom: 50px;}
+    ul.nav.nav-pills {margin-bottom: 0px;column-gap: 4%;row-gap: 20px;}
+    .nav-pills .nav-link.active {font-size: 14px;padding: 11px 14px;}
+    .nav-item{width: 48%;text-align: center;}
+    .nav-link {font-size: 14px;padding: 11px 14px;font-weight: 400;}
+    .solution-title {font-size: 22px;line-height: 37px;margin-bottom: 0;}
+    .solution-description {font-size: 14px;line-height: 22px;margin-bottom: 20px;}
+    .solution-img{margin-bottom: 10px;}
+    /*  */
+    .global-partner-section {padding: 30px 0 ;}
+    .global-partner-section .owl-carousel .owl-item img{margin: 0 auto;width: auto;}
+    .partner-subtitle {font-size: 16px;line-height: 30px;margin-bottom: 15px;}
+    .partner-heading {font-size: 22px;line-height: 30px;margin-bottom: 30px;}
+    .partner-heading::before {bottom: -50px;height: 70px;}
+    .partner-content {font-size: 14px;line-height: 25px;margin-bottom: 30px;}
+    /*  */
+    .testimonial-section {padding: 50px 0;}
+    .testimonial-subtitle {font-size: 14px;}
+    .testimonial-heading {font-size: 22px;line-height: 30px;margin-bottom: 50px;}
+    .item .clint-pic {max-width: 80px;}
+    .star {display: flex;justify-content: center;column-gap: 1%;margin-top: 20px;margin-bottom: 20px;}
+    .star .star-icon {max-width: 10px;}
+    .testimonial-description {font-size: 14px;line-height: 22px;margin: 0 auto 15px;}
+    .clint-name {font-size: 14px;}
+    .clint-city {font-size: 14px;}
+    /*  */
+    .contact-section {margin-bottom: 50px;}
+    .contact-img{width: 100%;}
+    .contact-form {padding: 20px;}
+    .contact-subtitle {font-size: 14px;}
+    .contact-heading {font-size: 22px;line-height: 30px;margin-bottom: 30px;}
+    .custom-form-label {font-size: 14px;}
+    .form-group {margin-bottom: 20px;}
+    /*  */
+    .provide-heading {font-size: 23px;line-height: 30px;}
+    .provide{flex-direction: column;row-gap: 20px;}
+    /*  */
+    footer {background: #000000;padding: 50px 0;}
+    .footer-logo {margin: -50px 0 30px 0;width: 30%;}
+    .footer-heading {font-size: 22px;line-height: 35px;margin-bottom: 20px;}
+    .footer-description {font-size: 16px;line-height: 30px;margin-bottom: 30px;}
+    .link-heading {margin-bottom: 10px;font-size: 22px;}
+    .footer-list {font-size: 16px;line-height: 30px;}
+    .footer-link li {margin-bottom: 10px;}
+    .footer-link{margin-bottom: 30px;}
+    .time{margin-bottom: 30px;}
+    .address {font-size: 16px;line-height: 30px;}
+    .time {font-size: 16px;}
+    .mini-footer {margin-top: 30px;flex-direction: column;}
+    .copyright-text,
+    .copyright-text a {font-size: 16px;margin-top: 30px;}
+    .socical-media-icon {margin-top: 30px;}
+    .map-div {height: 300px;border-radius: 10px;overflow: hidden;}
+    /*  */
+    .counter-section {padding: 30px 0;margin-bottom: 50px;}
+    .counter-section .common-heading {color: #FFFFFF;}
+    .projectFactsWrap {flex-direction: column;justify-content: center;align-items: center;row-gap: 20px;}
+    .item .count-number {font-size: 22px;line-height: 30px;}
+    .count-name {font-size: 16px;line-height: 30px;}
+    /*  */
+    .inner-hero-section{padding-bottom: 80px;margin-bottom: 50px;}
+    .inner-hero-heading{font-size: 24px;padding-top: 60px;}
+    .product-detail-section{margin-bottom: 40px;}
+    .left-col{margin-bottom: 20px;}
+    .gallery-section{margin-bottom: 30px;}
+    .services-provide-section{margin-bottom: 0;}
+    .service-provide-boxes{flex-direction: column;row-gap: 30px;}
+    .service-provide-box{max-width: 100%;}
+    .service-provide-heading p{font-size: 18px;}
+    .service-provide-img img{max-width: 100px;}
+    .mini-footer-content{flex-direction: column;}
+    .terms {margin-top: 20px;}
+    .blog-section .blog-slider .blog-heading{font-size: 18px;line-height: 28px;}
+    .blog-section .blog-slider .blog-description{font-size: 16px;line-height: 27px;}
+}

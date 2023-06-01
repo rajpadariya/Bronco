@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: 'calibri';
+    src: url(./font/calibri-font-family/calibri-regular.ttf);
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s;
+}
+.modal{
+    top: 100px;
+}
+.container{
+    max-width: 1440px !important;
+}
+
+/* common btn css */
+.border-btn,
+.bg-black-btn{padding: 15px 22px;border-radius: 5px;font-family: 'calibri';font-weight: 400;font-size: 20px;line-height: 17px;transition: 0.3s;}
+.border-btn{background-color: transparent;border: 1px solid #A9CF46;color: #A9CF46;display: inline-block;}
+.bg-black-btn{background-color: #000000;color: #FFFFFF;border: none;display: inline-block;border: 1px solid transparent;}
+.bg-black-btn:hover{background-color: transparent;color: #A9CF46;border: 1px solid #A9CF46;}
+.border-btn:hover{background-color: #000;color: #FFFFFF;border: 1px solid transparent;}
+/* hero section */
+.navbar.sticky .hero-section{height: 830px;}
+.hero-section{background-image: url(./images/hero-bg.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;margin-bottom: 100px;padding-bottom: 80px;}
+/* heder section css */
+.header-search-wrapper {position: relative;}
+.header-search-wrapper .search-form-main {background: #fff none repeat scroll 0 0;-webkit-box-shadow: 1px 1px 7px rgba(0,0,0,.15);box-shadow: 1px 1px 7px rgba(0,0,0,.15);border-top: 2px solid #408c40;padding: 15px;position: absolute;right: 0;top: 124%;width: 300px;z-index: 9999;opacity: 0;visibility: hidden;}
+.search-form-main.active-search {opacity: 1;visibility: visible;}
+.header-search-wrapper .search-form-main {border-top-color: #A9CF46;border-radius: 10px;top: 50px;}
+.header-search-wrapper .search-form-main:before {border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 10px solid #A9CF46;content: "";position: absolute;right: 15px;top: -10px;}
+.header-search-wrapper .search-form-main:before {border-bottom-color: #A9CF46;}
+.header-search-wrapper .search-form-main .search-field {border-radius: 5px;padding: 8px 10px;width: 73%;float: left;border: none;margin: 0 5px 0 0;}
+.header-search-wrapper .search-form-main .search-submit {border:none;border-radius: 5px;color: #fff;width: 25%;height: 36px;background: #A9CF46;}
+.search-lable{display: block;}
+.logo img{max-width: 150px;}
+/* about bronco css */
+.about-bronco-section{margin-bottom: 100px;}
+.about-subtitle{font-family: 'calibri';font-style: normal;font-weight: 500;font-size: 30px;line-height: 40px;color: rgba(0, 0, 0, 0.6);margin-bottom: 30px;}
+.about-bronco-desc{font-family: 'calibri';font-style: normal;font-weight: 300;font-size: 21px;line-height: 35px;color: #525F6A;margin-bottom: 35px;}
+.about-video{width: 100%;height: 390px;border-radius: 20px;overflow: hidden;box-shadow: 0px 14px 19px rgba(0, 0, 0, 0.25);}
+.about-video video{width: 100%;}
+/* banner title css */
+.banner-title-section{margin-top: 50px;margin-bottom: 100px;}
+.banner-title-section h1{    max-width: 810px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 90px;
+    color: #FFFFFF;
+    margin-bottom: 20px;}
+.banner-title-section .dial-service {margin-bottom: 50px;}
+.banner-title-section .dial-service p{font-family: 'calibri';font-weight: 500;font-size: 30px;line-height: 35px;color: #FFFFFF;margin-bottom: 10px;}
+.banner-title-section .dial-service a{font-family: 'calibri';font-style: italic;font-weight: 700;font-size: 22px;line-height: 27px;text-decoration: none;color: #A9CF46;display: block;}
+.banner-btn{display: flex;column-gap: 3%;}
+/* hero banner slider css */
+.hero-banner-slider{max-width: 880px;margin: 0 auto;}
+.slider-title{font-family: 'Oswald';font-weight: 500;font-size: 30px;line-height: 44px;color: #FFFFFF;margin-bottom: 10px;}
+.slider-content{font-family: 'calibri';font-weight: 400;font-size: 20px;line-height: 30px;color: #FFFFFF;margin-bottom: 20px;}
+.hero-banner-slider .owl-nav{position: relative;}
+.hero-banner-slider  .owl-prev{position: absolute;top: -100px;transform: translateY(-50%);left: -100px;}
+.hero-banner-slider  .owl-next{position: absolute;top: -110px;transform: translateY(-50%);right: -100px;}
+.owl-dots{text-align: center;margin-top: 50px;}
+.hero-banner-slider .owl-dot{height: 10px !important;width: 10px !important;background: #A9CF46 !important;border-radius: 100%;margin: 0 5px;transition: 0.3s;text-align: center;}
+.hero-banner-slider .owl-dot.active{width: 30px !important;border-radius: 10px;}    
+.banner-slider-image{border-radius: 15px;}
+/* common heading css */
+.common-heading{font-family: 'Oswald';font-weight: 400;font-size: 45px;line-height: 67px;color: #525F6A;margin-bottom: 35px;position: relative;margin-left: 15px;text-transform: capitalize;}
+.common-heading::before{content: '';height: 55px;width: 5px;position: absolute;background-color: #A9CF46;top: 5px;left: -15px;}
+/* block latest css */
+.block-latest-solutions{margin-bottom: 100px;}
+.block-latest-solutions .solutions .col .item {height: 500px;min-width: 233px;display: flex;flex-direction: column;align-items: center;position: relative;text-align: center;justify-content: end;color: #fff;overflow: hidden;border-radius: 20px;background: #00000050;padding: 60px 0;}
+.block-latest-solutions .solutions .col .item .image {position: absolute;width: 100%;height: 100%;z-index: -1;background-color: #EFEFEF;top: 0;left: 0;}
+.block-latest-solutions .solutions .col.active .item .item-title {margin-bottom: 0.9375rem;position: relative;}
+.block-latest-solutions .solutions .col .item .item-title {font-weight: 500;margin-bottom: 0;font-family: 'Oswald';}
+.block-latest-solutions .solutions .col .item .item-description {display: none;max-width: 400px;font-size: 20px;font-family: 'calibri';font-weight: 400;}
+.block-latest-solutions .solutions .col.active {flex-grow: 1;transition: none;}
+.block-latest-solutions .solutions .col {flex: 0;transition: flex 0.3s ease-in-out;}
+.block-latest-solutions .solutions .col.active .item .item-description {display: block;margin-bottom: 0.9375rem;}
+.block-latest-solutions .solutions .col.active .item .border-btn {display: block;}
+.block-latest-solutions .solutions .col .item .border-btn{display: none;}
+/* tabs css */
+.tabs-section{margin-bottom: 100px;}
+ul.nav.nav-pills{justify-content: center;margin-bottom: 70px;column-gap: 2%;}
+.nav-pills .nav-link.active{background: #A9CF46;border-radius: 10px;font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 18px;line-height: 21px;padding: 16px 35px;border: 1px solid transparent !important;color: #FFFFFF;filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));}
+.nav-link{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 18px;line-height: 21px;padding: 16px 35px;transition: 0.3s;color: #000000;border: 1px solid rgba(0, 0, 0, 0.11) !important;border-radius: 10px !important;text-transform: uppercase;}
+.nav-link:hover{background-color: #A9CF46;color: #FFFFFF;border: 1px solid transparent !important;filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));}
+.solution-row{align-items: center;}
+.solution-img{width: 100%;}
+.solution-title{font-family: 'Oswald';font-weight: 500;font-size: 45px;line-height: 67px;color: #525F6A;margin-bottom: 20px;text-transform: uppercase;}
+.solution-description{font-family: 'calibri';font-weight: 300;font-size: 21px;line-height: 35px;color: #525F6A;margin-bottom: 30px;}
+/* global partnes css */
+.global-partner-section{padding: 80px 0 60px;background: rgba(217, 217, 217, 0.5);}
+.global-partner-content{max-width: 750px;width: 100%;text-align: center;margin: 0 auto;}
+.partner-subtitle{font-family: 'calibri';font-style: normal;font-weight: 500;font-size: 28px;line-height: 40px;text-align: center;margin-bottom: 30px;color: rgba(0, 0, 0, 0.6);}
+.partner-heading{font-family: 'Oswald';font-style: normal;font-weight: 500;font-size: 45px;line-height: 40px;text-align: center;margin-bottom: 70px;color: #525F6A;position: relative;}
+.partner-heading::before{content: '';position: absolute;bottom: -90px;left: 50%;transform: translateX(-50%);background-color: #A9CF46;height: 100px;width: 5px;transform: rotate(90deg);}
+.partner-content{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 24px;line-height: 40px;text-align: center;text-align: center;margin-bottom: 70px;color: rgba(0, 0, 0, 0.6);}
+/* testimonial css */
+.testimonial-section{padding:0 0 70px 0;}
+.testimonial-subtitle{font-family: 'calibri';font-weight: 600;font-size: 20px;line-height: 23px;color: #000;margin-bottom: 20px;text-align: center;}
+.testimonial-heading{font-family: 'Oswald';font-style: normal;font-weight: 500;font-size: 45px;line-height: 67px;color: #525F6A;text-align: center;margin-bottom: 70px;position: relative;}
+.testimonial-heading::before{content: '';position: absolute;bottom: -70px;left: 50%;transform: rotate(90deg);background-color: #A9CF46;height: 100px;width: 5px;}
+.testimonial-section .item .clint-pic{max-width: 100px;}
+.star {display: flex;justify-content: center;column-gap: 1%;margin-top: 30px;margin-bottom: 30px;}
+.star .star-icon{max-width: 20px;}
+.testimonial-description{font-family: 'calibri';font-style: normal;font-weight: 300;font-size: 21px;line-height: 35px;max-width: 930px;margin: 0 auto 25px;color: #525F6A;}
+.clint-name{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 22px;line-height: 26px;text-align: center;margin-bottom: 10px;color: #000;}
+.clint-city{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 18px;line-height: 21px;color: #525F6A;}
+.client-pic{display: flex;align-items: center;column-gap: 5%;margin-bottom: 10PX;}
+.testimonial-section .item{border: 1px solid #D9D9D9;padding: 20px;border-radius: 10px;}
+.qute{max-width: 60px;}
+/* contact section css */
+.contact-section{margin-bottom: 100px;}
+.contact-form{background: rgba(217, 217, 217, 0.2);border-radius: 10px;padding: 40px;}
+.contact-subtitle{font-family: 'calibri';font-weight: 500;font-size: 18px;line-height: 21px;color: #000000;margin-bottom: 15px;}
+.contact-heading{font-family: 'Oswald';font-style: normal;font-weight: 500;font-size: 45px;line-height: 67px;color: #525F6A;margin-bottom: 25px;}
+.custom-form-label{font-family: 'calibri';font-weight: 500;font-size: 18px;line-height: 21px;color: rgba(0, 0, 0, 0.6);margin-bottom: 10px;}
+.form-control{background: #FFFFFF;border-radius: 10px;padding: 15px 20px;border: none;font-family: 'calibri';color: rgba(0, 0, 0, 0.6);}
+.form-group{margin-bottom: 30px;}
+.contact-img{width: 93%;}
+.project-desc{font-family: 'calibri';font-weight: 300;font-size: 21px;line-height: 35px;color: #525F6A;margin-bottom: 30px;}
+.contact-detail a{font-family: 'calibri';font-weight: 300;font-size: 20px;line-height: 35px;color: #525F6A;margin-bottom: 10px;display: block;}
+.connection-icon{width: 30px;margin-right: 20px;}
+/* we provide section css */
+.we-provide-section{background: #A9CF46;padding: 30px 0;text-align: center;}
+.provide-heading{font-family: 'calibri';font-weight: 400;font-size: 34px;line-height: 53px;text-align: center;color: #FFFFFF;}
+.we-provide-section .bg-black-btn{display: inline-block;}
+.provide{display: flex;justify-content: space-evenly;}
+/* footer section css */
+footer{background: #000000;padding: 70px 0 50px 0;}
+.footer-logo{margin-bottom: 30px;}
+.footer-heading{font-family: 'calibri';font-style: normal;font-weight: 500;font-size: 30px;line-height: 45px;margin-bottom: 10px;color: #FFFFFF;}
+.footer-description{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 20px;line-height: 30px;color: #FFFFFF;color: #FFFFFF;}
+.link-heading{margin-bottom: 50px;font-family: 'calibri';font-style: normal;font-weight: 600;font-size: 28px;line-height: 33px;color: #FFFFFF;}
+.footer-list{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 20px;line-height: 30px;color: #FFFFFF;transition: 0.3s;}
+.footer-link li{margin-bottom: 10px;}
+.footer-list:hover{color: #A9CF46;}
+.address{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 17px;line-height: 30px;color: #FFFFFF;letter-spacing: 2px;margin-bottom: 20px;display: inline-flex;}
+.time{display: inline-flex;}
+.address::before{content: url(./images/map-icon.svg);margin-right: 15px;}
+.mail::before{content: url(./images/mail-icon.svg);margin-right: 15px;}
+.number::before{content: url(./images/call-icon.svg);margin-right: 15px;}
+.time::before{content: url(./images/clock-icon.svg);margin-right: 15px;}
+.time{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 20px;line-height: 23px;color: #FFFFFF;letter-spacing: 2px;}
+.mini-footer{border-top: 5px solid #A9CF46;margin-top: 50px;}
+.mini-footer-content{display: flex;justify-content: space-between;align-items: center;}
+.copyright-text,.copyright-text a{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 20px;line-height: 23px;color: #FFFFFF;letter-spacing: 2px;margin-top: 50px;}
+.socical-media-icon{margin-top: 20px;}
+.map-div{height: 300px;border-radius: 10px;overflow: hidden;}
+.terms{margin-top: 50px;}
+.terms a{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 20px;line-height: 23px;color: #FFFFFF;letter-spacing: 2px;}
+.social-media-heading{margin-bottom: 20px;font-family: 'calibri';font-style: normal;font-weight: 600;font-size: 22px;line-height: 33px;color: #FFFFFF;}
+/* counter section css */
+.counter-section{background-image: url(./images/count-bg.png);background-size: cover;background-position: center;background-repeat: no-repeat;padding: 100px 0;margin-bottom: 100px;position: relative;z-index: 1;}
+.counter-section .common-heading{color: #FFFFFF;text-align: center;margin-left: 0;}
+.counter-section .common-heading::before{display: none;}
+.projectFactsWrap {display: flex;column-gap: 5%;justify-content: center;}
+.item .count-number{font-family: 'Oswald';font-style: normal;font-weight: 500;font-size: 45px;line-height: 67px;color: #FFFFFF;margin-bottom: 15px;text-align: center;}
+.item .count-number::after{content: "+";}
+.count-name{font-family: 'calibri';font-style: normal;font-weight: 300;font-size: 20px;line-height: 40px;color: #FFFFFF;}
+.box {background: #2ea1da;position: relative;display: flex;justify-content: center;height: 150px;width: 150px;border-radius: 20%;animation: 8s infinite alternate ease-in-out spin;}
+.innerBox {background: #2e2e31;height: 120px;width: 120px;position: absolute;border-radius: 20%;top: 50%;   left: 50%;transform: translate(-50%, -50%);}
+/* blog section */
+.blog-section{margin-bottom: 80px;}
+.blog-section .common-heading{margin-bottom: 10px;}
+.blog-section .main-desc{font-family: 'calibri';font-weight: 300;font-size: 22px;line-height: 35px;color: #525F6A;margin-bottom: 30px;}
+.blog-section .blog-slider .item{border: 1px solid #D9D9D9;padding: 20px;border-radius: 10px;box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);}
+.blog-section .blog-slider  .blog-img img{width: 100%;}
+.blog-section .blog-slider .owl-stage-outer{padding-bottom: 50px;}
+.blog-section .blog-slider .blog-heading{font-family: 'calibri';font-weight: 600;font-size: 24px;line-height: 35px;color: #4b4b4b;margin-bottom: 10px;margin-top: 20px;}
+.blog-section .blog-slider .blog-description{font-family: 'calibri';font-weight: 300;font-size: 20px;line-height: 35px;color: #525F6A;margin-bottom: 30px;}
+.blog-section .blog-slider .blog-link{font-family: 'calibri';font-weight: 300;font-size: 20px;line-height: 35px;color: #525F6A;}
+/* inner hero section css */
+.inner-hero-section{background-image: url(./images/counter-bg-2.png);background-position: center;background-size: cover;background-repeat: no-repeat;padding-bottom: 100px;margin-bottom: 100px;}
+.inner-hero-heading{font-family: 'Oswald';font-weight: 500;font-size: 45px;color: #FFFFFF;text-align: center;}
+/* product list section css */
+.product-list-section{margin-bottom: 80px;}
+.list-products{box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);border-radius: 10px;overflow: hidden;margin-bottom: 30px;overflow: hidden;transition: 0.3s;position: relative;}
+.product-image::before{content: '';position: absolute;top: 0;left: 0;background: #000000;width: 100%;height: 100%;opacity: 0;transition: .3s linear;}
+.product-image{overflow: hidden;transition: .3s;max-height: 350px;height: 100%;}
+.product-image img{width: 100%;transition: .3s;}
+.product-name{font-size: 20px;font-family: 'calibri';white-space: nowrap;width: 300px;overflow: hidden;text-overflow: ellipsis;display: block;}
+.product-content{padding: 20px;}
+.list-products :hover .product-image img{transform: scale(1.2);overflow: hidden;}
+.list-products :hover .product-image::before{opacity: .3;z-index: 1;}
+/* about us section css */
+.about-us-section{margin-bottom: 50px;}
+.about-img{width: 100%;box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);border-radius: 10px;margin-bottom: 30px;}
+.sub-title{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 20px;line-height: 35px;color: #525F6A;margin-bottom: 35px;}
+.about-description{font-family: 'calibri';font-style: normal;font-weight: 300;font-size: 21px;line-height: 35px;color: #525F6A;margin-bottom: 35px;}
+/* bronco diffirence sectiojn css */
+.bronco-diffirence-section{background-image: url(./images/counter-bg-2.png);background-position: center;background-repeat: no-repeat;background-size: cover;padding: 50px 0;margin-bottom: 80px;}
+.bronco-diffirence-section .common-heading{color: #FFF;}
+.bronco-diffirence-heading{font-family: 'calibri';font-style: normal;font-weight: 500;font-size: 22px;line-height: 30px;color: #FFF;margin-bottom: 10px;}
+.bronco-diffirence-description{font-family: 'calibri';font-style: normal;font-weight: 300;font-size: 21px;line-height: 35px;color: #FFF;margin-bottom: 30px;}
+/* our vision mission & value section css */
+.our-vision-secction{margin-bottom: 80px;}
+.vision-text{font-family: 'calibri';font-style: normal;font-weight: 300;font-size: 21px;line-height: 35px;color: #525F6A;margin-bottom: 10px;}
+.vision-image{width: 100%;border-radius: 20px;}
+.vision-list .vision-text{list-style: inside;}
+.why-choose-section{background-color: #67552F ;padding: 50px 0;margin-bottom: 80px;}
+.why-choose-section .common-heading{color: #FFF;}
+.why-choose-text{font-family: 'calibri';font-style: normal;font-weight: 300;font-size: 21px;line-height: 30px;color: #FFF;margin-bottom: 10px;}
+/* certifiactes section css */
+.certificates-section{margin-bottom: 80px;}
+.certificate{width: 100%;max-width: 300px;}
+.modal-body{text-align: center;background-color: #000000;}
+.btn{width: 100%;}
+.contact-form-details{background-color: #67552F;padding: 20px;border-radius: 10px;margin-bottom: 30px;}
+/* brocher css pdf section */
+.brocher{margin-top: 30px;background-color: #67552F ;    padding: 15px 30px;    }
+.brocher .common-heading{font-size: 30px;line-height: 40px;color: #FFF;margin-bottom: 20px;}
+.brocher .common-heading::before{height: 35px;top: 5px;}
+.pdf{font-family: 'calibri';background-color: #000;padding: 10px 20px;border-radius: 5px;color: #FFF;font-size: 16px;font-weight: 400;border: 1px solid transparent;transition: 0.3s;display: inline-block;}
+.pdf:hover{color: #000;background-color: transparent;border: 1px solid #000;}
+/* career section css */
+.career-section{margin-bottom: 70px;}
+.career-box{padding: 20px;text-align: center;border: 1px solid rgba(0, 0, 0, 0.11);border-radius: 10px;margin-bottom: 30px;transition: 0.3s;background-color: #67552F;}
+.career-box:hover{border: 1px solid transparent;box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);}
+.position-name{font-family: 'calibri';font-weight: 400;font-size: 22px;color: #FFF;line-height: 30px;text-align: center;margin-bottom: 10px;letter-spacing: 2px;}
+.position-location{font-family: 'calibri';font-weight: 600;font-size: 18px;color: #FFF;line-height: 30px;text-align: center;margin-bottom: 10px;letter-spacing: 2px;}
+.position-location span{color: #FFF;font-weight: 400;}
+.career-subtitle{font-family: 'calibri';font-style: normal;font-weight: 500;font-size: 28px;line-height: 40px;margin-bottom: 0;color: rgba(0, 0, 0, 0.6);}
+.apply-form-section{margin-bottom: 100px;}
+.apply-now-content{margin-bottom: 80px;}
+/* product details page css */
+.product-detail-section{margin-bottom: 80px;position: relative;}
+.name-of-product{font-family: 'calibri';font-style: normal;font-weight: 500;font-size: 22px;line-height: 30px;margin-bottom: 10px;color: rgba(0, 0, 0, 0.6);}
+.detail-product,
+.product-text{font-family: 'calibri';font-weight: 300;font-size: 21px;line-height: 35px;color: #525F6A;margin-bottom: 20px;}
+.detail-product span{font-weight: 600;font-size: 20px;}
+.product-text{margin-bottom: 0;list-style: disc;}
+.product-list{margin-bottom: 20px;padding-left: 20px;}
+.product-detail-name{font-family: 'calibri';font-weight: 500;font-size: 20px;line-height: 35px;color: rgba(0, 0, 0, 0.6);margin-top: 20px;}
+.product-detail-description{font-family: 'calibri';font-weight: 400;font-size: 20px;line-height: 35px;color: #525F6A;margin-bottom: 10px;}
+.product-detail-section .contact-form{padding: 0;background-color: transparent;}
+.product-detail-section .contact-form .form-control{padding: 10px 20px;}
+.left-pannel-links{font-family: 'calibri';font-weight: 600;font-size: 16px;line-height: 30px;color: #67552F;padding: 6px 0;display: block;border-bottom: 1px solid #525F6A90;}
+.left-pannel-links:last-child{border-bottom: 0;}
+.left-col-links{background-color: #A9CF46;padding: 5px 10px ;border-radius: 5px;margin-bottom: 20px;}
+.left-pannel-links:hover{color: #FFF;}
+.product-description{font-family: 'calibri';font-weight: 400;font-size: 20px;line-height: 30px;}
+/* bredcum css */
+.bredcum-link{font-family: 'calibri';font-weight: 300;font-size: 20px;line-height: 19px;color: #FFFFFF;text-transform: uppercase;}
+.breadcrumb-item.active{color: #A9CF46  !important;}
+.breadcrumb{justify-content: center;margin-top: 30px;}
+/* tds section */
+.tds-section{margin-bottom: 80px;}
+/* gallery page css */
+.gallery-section{margin-bottom: 70px;}
+.gallery-box{margin-bottom: 30px;}
+/* service provide section css */
+.services-provide-section{background-color: rgba(217, 217, 217, 0.5);padding: 50px 0;margin-bottom: 80px;}
+.service-provide-box{max-width: 20%;}
+.service-provide-boxes{display: flex;justify-content: space-between;align-items: center;}
+.service-provide-img{text-align: center;}
+.service-provide-heading p{font-family: 'calibri';font-style: normal;font-weight: 400;font-size: 24px;line-height: 40px;text-align: center;margin-bottom: 0;color: rgba(0, 0, 0, 0.6);}
+
